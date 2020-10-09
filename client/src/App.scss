@@ -1,0 +1,14 @@
+@import 'styles/variables';
+
+.App-header {
+  padding: 15px;
+  background: $cBlue;
+  box-shadow: $shadow;
+  margin-bottom: 20px;
+
+  h2 {
+    color: $cWhite;
+    padding: 0;
+    margin: 0;
+  }
+}

@@ -1,0 +1,32 @@
+@import '../styles/variables';
+
+.Predict {
+  margin-bottom: 20px;
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+    @include media(m) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include media(xl) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  .summary {
+    margin-bottom: 20px;
+
+    li {
+      font-size: 16px;
+      padding-bottom: 10px;
+    }
+
+    strong {
+      padding-left: 10px;
+      font-weight: 700;
+    }
+  }
+}
